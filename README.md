@@ -1,4 +1,5 @@
 # Fall Detection
+Blog post: [https://matthew-bird.com/blogs/Fall%20Detection.html](https://matthew-bird.com/blogs/Fall%20Detection.html)
 
 ## Motivation
 Falls are the most common cause of injury to elderly, and thus I thought it would be neat to use cheap ESP32 Cameras to detect falls. Although I never got around to testing with an ESP32, the code still worked on videos I tested from online. 

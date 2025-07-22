@@ -1,7 +1,7 @@
 # Fall Detection
 
 ## Motivation
-Falls are the most common cause of injury to elderly, and thus I thought it would be neat to use cheap ESP32 Cameras to detect falls. 
+Falls are the most common cause of injury to elderly, and thus I thought it would be neat to use cheap ESP32 Cameras to detect falls. Although I never got around to testing with an ESP32, the code still worked on videos I tested from online. 
 
 ## Method
 The first step is to make use of my hip space to 3D space calibration documented [here](https://matthew-bird.com/blogs/Hip-to-Camera-Space.html) to allow me to use the faster [mediapipe pose detection model](https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker) to get the 3D body joint positions around the camera as the origin. 
